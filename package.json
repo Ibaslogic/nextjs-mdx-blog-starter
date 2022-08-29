@@ -9,9 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "date-fns": "^2.29.2",
+    "gray-matter": "^4.0.3",
     "next": "12.2.5",
+    "next-mdx-remote": "^4.1.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "reading-time": "^1.5.0",
+    "rehype-autolink-headings": "^6.1.1",
+    "rehype-img-size": "^1.0.1",
+    "rehype-slug": "^5.0.1",
+    "sharp": "^0.30.7"
   },
   "devDependencies": {
     "eslint": "8.23.0",
