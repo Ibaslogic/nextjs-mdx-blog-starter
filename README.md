@@ -7,15 +7,25 @@ Read the step-by-step guide here: ...
 You can download or clone this project by running this command from your terminal:
 
 ```
-git clone ...
+git clone https://github.com/Ibaslogic/nextjs-mdx-blog-starter
 ```
 
 Then:
 
 ```
-cd ...
+cd nextjs-mdx-blog-starter
+```
+
+```
 npm install
-npm start
+# or
+yarn
+```
+
+```
+npm run dev
+# or
+yarn dev
 ```
 
 You should see the app in your browser address bar at [http://localhost:3000](http://localhost:3000)
