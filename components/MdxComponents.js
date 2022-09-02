@@ -27,7 +27,9 @@ const CustomLink = (props) => {
 };
 
 const CustomImage = (props) => {
-  return <Image layout="responsive" loading="lazy" {...props} />;
+  return (
+    <Image alt="" layout="responsive" loading="lazy" {...props} />
+  );
 };
 
 const MDXComponents = {
